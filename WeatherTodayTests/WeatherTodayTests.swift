@@ -27,7 +27,7 @@ class WeatherTodayTests: XCTestCase {
     {
         let viewModel = WeatherViewModel()
         viewModel.downloadData(withURLString: Constants.LocationURL.location) { (results) in
-        XCTAssertNil(results, "weather data is nil")
+        XCTAssertNil(results, "weather data is nil")//test commit
         }
     }
 
