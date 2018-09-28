@@ -9,7 +9,7 @@
 import XCTest
 @testable import WeatherToday
 
-class WeatherTodayTests: XCTestCase {
+class WeatherViewModelTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -30,7 +30,18 @@ class WeatherTodayTests: XCTestCase {
         XCTAssertNil(results, "weather data is nil")//test commit
         }
     }
-
+    func testGetCityList()
+    {
+        let viewModel = WeatherViewModel()
+        let cities = viewModel.getCityList()
+        XCTAssertTrue(cities.count > 0, "no city fetched")//test commit
+    }
+    func testGetCityName()
+    {
+        let viewModel = WeatherViewModel()
+        let cities = viewModel.getCityForName(name: "London")
+        XCTAssertTrue(cities?.name == "London", "wrong city fetched")//test commit
+    }
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {

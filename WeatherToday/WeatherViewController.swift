@@ -8,24 +8,31 @@
 
 import UIKit
 class WeatherViewController: UIViewController {
+    
     @IBOutlet weak var tableView: UITableView!
     let viewModel: WeatherViewModelType = WeatherViewModel()
     var selectedCity : City?
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = view.frame.height / 4
         title = "Weather"
+        if selectedCity == nil{
+            showCitySelectAlert()
+        }
         
     }
     @IBAction func showAlert(sender: AnyObject) {
+        
         showCitySelectAlert()
     }
 }
 
 extension WeatherViewController {
-
+    // show the alert to select city
     func showCitySelectAlert(){
+        
         let alert = UIAlertController(title: "Weather", message: "Please Select city", preferredStyle: .actionSheet)
         for city in self.viewModel.cities{
             alert.addAction(UIAlertAction(title: city.name,  style: .default , handler:{ (alert)in
@@ -41,11 +48,13 @@ extension WeatherViewController {
         self.present(alert, animated: true, completion: {
             
         })
+        
     }
     
     func refreshData(city : City){
+        
         self.viewModel.getData(
-            city: city, reloadAction: { (status) in
+            city: city, completionHandler: { (status) in
                 if status {
                     self.reloadData()
                 }
@@ -54,34 +63,39 @@ extension WeatherViewController {
         }
         
     }
+    //show error alert from viewmodel
     func showErrorAlert(message: String){
-            let alert = UIAlertController(title: "Weather Forecast", message: message, preferredStyle: UIAlertController.Style.alert)
-            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
-                switch action.style{
-                case .default:
-                    print("default")
-                    
-                case .cancel:
-                    print("cancel")
-                    
-                case .destructive:
-                    print("destructive")
-                    
-                    
-                }}))
-            self.present(alert, animated: true, completion: nil)
+        
+        let alert = UIAlertController(title: "Weather Forecast", message: message, preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
+            switch action.style{
+            case .default:
+                print("default")
+                
+            case .cancel:
+                print("cancel")
+                
+            case .destructive:
+                print("destructive")
+                
+            }}))
+        self.present(alert, animated: true, completion: nil)
+        
     }
     
     func reloadData() {
+        
         DispatchQueue.main.async {
             self.tableView.reloadData()
         }
+        
     }
 }
 
 extension WeatherViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
         return viewModel.forecasts?.count ?? 0
     }
     

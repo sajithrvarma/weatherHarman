@@ -12,8 +12,8 @@ import UIKit
         var forecasts: [[WeatherDetails]]? { get set }
         var dateHeaderText: [String] { get set }
         var cities:[City]{  get }
-        func getData( city: City, reloadAction: ((Bool) -> ())?,
-                      alertAction: ((String) -> ())?)
+        func getData( city: City, completionHandler: ((Bool) -> ())?,
+                      errorHandler: ((String) -> ())?)
         func getCityForName(name: String) -> City?
     }
     
@@ -24,8 +24,9 @@ class WeatherViewModel: WeatherViewModelType, Downloadable, Parsable {
     var cities: [City] {
         return getCityList()
     }
-    func getData( city: City, reloadAction: ((Bool) -> ())?,
-     alertAction: ((String) -> ())?) {
+    // get weather data
+    func getData( city: City, completionHandler: ((Bool) -> ())?,
+     errorHandler: ((String) -> ())?) {
         dateHeaderText = ["Today", "Tomorrow"]
         Constants.LocationURL.city = city.name ?? ""
         Constants.LocationURL.isoCountryCode = city.isoCountryCode ?? ""
@@ -42,10 +43,8 @@ class WeatherViewModel: WeatherViewModelType, Downloadable, Parsable {
                     
                     switch parseResult {
                     case .value(let forecastProvider):
-                        
                         self.createForecasts(weatherPredictor: forecastProvider)
-                        //self.forecastVCDelegate?.reloadData()
-                        reloadAction!(true)
+                        completionHandler!(true)
                     case .error(let err):
                         print(err)
                         
@@ -100,7 +99,7 @@ class WeatherViewModel: WeatherViewModelType, Downloadable, Parsable {
             self.forecasts = tempForecasts
         }
         
-        func populateDateHeaderText(withDate date: Date) {
+    func populateDateHeaderText(withDate date: Date) {
             
             let formattedDateString = stringFromDate(date: date)
             

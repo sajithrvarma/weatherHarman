@@ -20,8 +20,6 @@ struct WeatherDetails: Codable {
     var temperature: Temperature
     var weather: [Weather]
     var dateString: String
-    //var city: String
-   // var isoCountryCode: String
     var time: String {
         return timeStringFromDate(date: date)
     }
@@ -34,8 +32,6 @@ struct WeatherDetails: Codable {
         case weather
         case temperature = "main"
         case dateString = "dt_txt"
-        //case city = "city"
-        //case isoCountryCode = "country_code"
     }
 }
 
