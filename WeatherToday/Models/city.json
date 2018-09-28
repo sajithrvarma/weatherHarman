@@ -1,0 +1,23 @@
+{
+    "city": [{
+        "name": "Santa Clara",
+        "isoCountryCode": "USA",
+        "country": "United States of America"
+    },
+    {
+        "name": "Kochi",
+        "isoCountryCode": "IND",
+        "country": "India"
+    },
+    {
+        "name": "London",
+        "isoCountryCode": "uk",
+        "country": "United Kingdom"
+    },
+    {
+        "name": "Cape town",
+        "isoCountryCode": "ZAF",
+        "Country": "South Africa"
+    }
+    ]
+}
