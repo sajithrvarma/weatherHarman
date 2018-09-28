@@ -35,7 +35,7 @@ class WeatherViewModel: WeatherViewModelType, Downloadable, Parsable {
             switch result {
                 
             case .error(message: let msg):
-                print(msg)
+                errorHandler!(msg)
                 
             case .value(let val):
                 
@@ -46,7 +46,7 @@ class WeatherViewModel: WeatherViewModelType, Downloadable, Parsable {
                         self.createForecasts(weatherPredictor: forecastProvider)
                         completionHandler!(true)
                     case .error(let err):
-                        print(err)
+                        errorHandler!(err)
                         
                     }
                 }

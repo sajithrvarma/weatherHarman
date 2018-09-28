@@ -47,7 +47,7 @@ extension Downloadable {
     let task = session.dataTask(with: request) { data, URLResponse, error in
       
       guard let data = data else {
-        return completion(Result.error("Unable to download image"))
+        return completion(Result.error("Unable to download data"))
       }
       
       return completion(Result.value(data))
