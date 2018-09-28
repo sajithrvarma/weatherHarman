@@ -23,6 +23,13 @@ class WeatherTodayTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
+    func testDownload()
+    {
+        let viewModel = WeatherViewModel()
+        viewModel.downloadData(withURLString: Constants.LocationURL.location) { (results) in
+        XCTAssertNil(results, "weather data is nil")
+        }
+    }
 
     func testPerformanceExample() {
         // This is an example of a performance test case.

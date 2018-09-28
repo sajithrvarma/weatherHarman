@@ -12,8 +12,6 @@ import UIKit
 class WeatherViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
-    
-    @IBOutlet weak var cityButton: UIBarButtonItem!
     var viewModel: WeatherViewModelType?
     var cities : [City]?
     var selectedCity : City?
@@ -23,9 +21,7 @@ class WeatherViewController: UIViewController {
         tableView.estimatedRowHeight = view.frame.height / 4
         title = "Weather"
         self.viewModel = WeatherViewModel()
-//        if selectedCity?.count ?? 0 > 0{
-//            refreshData(city: selectedCity!)
-//        }
+
     }
 }
 
@@ -44,7 +40,7 @@ extension WeatherViewController {
     }
     
     @IBAction func showAlert(sender: AnyObject) {
-        let alert = UIAlertController(title: "Title", message: "Please Select city", preferredStyle: .actionSheet)
+        let alert = UIAlertController(title: "Weather", message: "Please Select city", preferredStyle: .actionSheet)
        cities = self.viewModel!.getCityList()
         for city in cities!{
             alert.addAction(UIAlertAction(title: city.name,  style: .default , handler:{ (alert)in

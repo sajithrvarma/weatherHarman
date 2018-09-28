@@ -91,6 +91,7 @@
 		08A082BD215A40C3007BDCBA /* WebService */ = {
 			isa = PBXGroup;
 			children = (
+				08A082B9215A405A007BDCBA /* Result.swift */,
 				08A082B7215A3FFC007BDCBA /* Downloadable.swift */,
 				08A082BB215A40B6007BDCBA /* Parseable.swift */,
 			);
@@ -130,12 +131,11 @@
 				08BC99E42159434A00D57F6D /* AppDelegate.swift */,
 				08BC99E62159434A00D57F6D /* WeatherViewController.swift */,
 				08A082B1215A3DD6007BDCBA /* WeatherViewModel.swift */,
-				085DA8A8215D3E3C00EAE3E4 /* Models */,
-				08A082C4215A43EE007BDCBA /* Common */,
 				08A082C0215A43E4007BDCBA /* WeatherCollectionCell.swift */,
 				08A082C1215A43E4007BDCBA /* WeatherTableCell.swift */,
+				085DA8A8215D3E3C00EAE3E4 /* Models */,
+				08A082C4215A43EE007BDCBA /* Common */,
 				08A082BD215A40C3007BDCBA /* WebService */,
-				08A082B9215A405A007BDCBA /* Result.swift */,
 				08BC99E82159434A00D57F6D /* Main.storyboard */,
 				08BC99EB2159434E00D57F6D /* Assets.xcassets */,
 				08BC99ED2159434E00D57F6D /* LaunchScreen.storyboard */,

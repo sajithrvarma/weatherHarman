@@ -164,7 +164,6 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="cityButton" destination="2JV-Xg-kIU" id="TwB-dU-nhL"/>
                         <outlet property="tableView" destination="PsW-7x-Bnv" id="uSz-hV-111"/>
                     </connections>
                 </viewController>

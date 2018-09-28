@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherViewController.swift"
-            timestampString = "559790713.97442"
+            timestampString = "559792383.963473"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherViewController.swift"
-            timestampString = "559790713.97506"
+            timestampString = "559792383.963729"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherViewController.swift"
-            timestampString = "559790713.975546"
+            timestampString = "559792383.963869"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
             landmarkName = "reloadData()"
             landmarkType = "7">
             <Locations>
@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherViewModel.swift"
-            timestampString = "559790713.9760129"
+            timestampString = "559792383.963999"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
             landmarkName = "createForecasts(weatherPredictor:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -106,12 +106,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherViewModel.swift"
-            timestampString = "559790713.976105"
+            timestampString = "559792383.965403"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
-            landmarkName = "populateDateHeaderText(withDate:)"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "createForecasts(weatherPredictor:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -218,11 +218,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherViewModel.swift"
-            timestampString = "559790713.976374"
+            timestampString = "559792383.966375"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "getData(city:reloadAction:alertAction:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -234,11 +234,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherViewController.swift"
-            timestampString = "559790713.976463"
+            timestampString = "559792383.966958"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "refreshData(city:)"
             landmarkType = "7">
             <Locations>
@@ -282,11 +282,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherViewController.swift"
-            timestampString = "559790713.976905"
+            timestampString = "559792383.967064"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "showAlert(sender:)"
             landmarkType = "7">
             <Locations>
@@ -330,11 +330,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherViewModel.swift"
-            timestampString = "559790713.977303"
+            timestampString = "559792383.9671381"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "getData(city:reloadAction:alertAction:)"
             landmarkType = "7">
             <Locations>
@@ -378,11 +378,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherViewController.swift"
-            timestampString = "559790713.977378"
+            timestampString = "559792383.967535"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -394,11 +394,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherViewController.swift"
-            timestampString = "559790713.977752"
+            timestampString = "559792383.9676369"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -474,7 +474,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherTableCell.swift"
-            timestampString = "559790713.978186"
+            timestampString = "559792383.9678"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "25"
