@@ -18,6 +18,11 @@
         "name": "Cape town",
         "isoCountryCode": "ZAF",
         "Country": "South Africa"
+    },
+    {
+        "name": "Dubai",
+        "isoCountryCode": "ARE",
+        "Country": "UAE"
     }
     ]
 }

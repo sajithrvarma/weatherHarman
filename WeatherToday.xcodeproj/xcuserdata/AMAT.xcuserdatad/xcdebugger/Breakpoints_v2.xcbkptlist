@@ -10,27 +10,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherViewController.swift"
-            timestampString = "559792383.963473"
+            timestampString = "559847873.492684"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
-            landmarkName = "tableView(_:numberOfRowsInSection:)"
-            landmarkType = "7">
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "WeatherViewController"
+            landmarkType = "21">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherViewController.swift"
-            timestampString = "559792383.963729"
+            timestampString = "559847873.492811"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherViewController.swift"
-            timestampString = "559792383.963869"
+            timestampString = "559847873.492882"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "reloadData()"
             landmarkType = "7">
             <Locations>
@@ -58,11 +58,11 @@
                   moduleName = "WeatherToday"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/AMAT/Sajith-Workspace/WeatherToday/WeatherToday/WeatherViewController.swift"
-                  timestampString = "559790714.209834"
+                  timestampString = "559847873.717846"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "93"
-                  endingLineNumber = "93"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
                   offsetFromSymbolStart = "26">
                </Location>
                <Location
@@ -73,11 +73,11 @@
                   moduleName = "WeatherToday"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/AMAT/Sajith-Workspace/WeatherToday/WeatherToday/WeatherViewController.swift"
-                  timestampString = "559790714.212828"
+                  timestampString = "559847873.721313"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "94"
-                  endingLineNumber = "94"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
                   offsetFromSymbolStart = "29">
                </Location>
             </Locations>
@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherViewModel.swift"
-            timestampString = "559792383.963999"
+            timestampString = "559847873.4929579"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
             landmarkName = "createForecasts(weatherPredictor:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -106,11 +106,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherViewModel.swift"
-            timestampString = "559792383.965403"
+            timestampString = "559847873.493821"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
             landmarkName = "createForecasts(weatherPredictor:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -218,11 +218,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherViewModel.swift"
-            timestampString = "559792383.966375"
+            timestampString = "559847873.494597"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "getData(city:reloadAction:alertAction:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -233,108 +233,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "WeatherToday/WeatherViewController.swift"
-            timestampString = "559792383.966958"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "refreshData(city:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WeatherToday.WeatherViewController.refreshData(city: WeatherToday.City) -&gt; ()"
-                  moduleName = "WeatherToday"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/AMAT/Sajith-Workspace/WeatherToday/WeatherToday/WeatherViewController.swift"
-                  timestampString = "559790714.261829"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "293">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Bool) -&gt; () in WeatherToday.WeatherViewController.refreshData(city: WeatherToday.City) -&gt; ()"
-                  moduleName = "WeatherToday"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/AMAT/Sajith-Workspace/WeatherToday/WeatherToday/WeatherViewController.swift"
-                  timestampString = "559790714.266009"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "33">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WeatherToday/WeatherViewController.swift"
-            timestampString = "559792383.967064"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "showAlert(sender:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WeatherToday.WeatherViewController.showAlert(sender: Swift.AnyObject) -&gt; ()"
-                  moduleName = "WeatherToday"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/AMAT/Sajith-Workspace/WeatherToday/WeatherToday/WeatherViewController.swift"
-                  timestampString = "559788891.6791919"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "56"
-                  endingLineNumber = "56"
-                  offsetFromSymbolStart = "1461">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 () -&gt; () in WeatherToday.WeatherViewController.showAlert(sender: Swift.AnyObject) -&gt; ()"
-                  moduleName = "WeatherToday"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/AMAT/Sajith-Workspace/WeatherToday/WeatherToday/WeatherViewController.swift"
-                  timestampString = "559788891.682487"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "4">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherViewModel.swift"
-            timestampString = "559792383.9671381"
+            timestampString = "559847873.495464"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "getData(city:reloadAction:alertAction:)"
             landmarkType = "7">
             <Locations>
@@ -346,11 +250,11 @@
                   moduleName = "WeatherToday"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/AMAT/Sajith-Workspace/WeatherToday/WeatherToday/WeatherViewModel.swift"
-                  timestampString = "559790714.274109"
+                  timestampString = "559847873.7598521"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
                   offsetFromSymbolStart = "888">
                </Location>
                <Location
@@ -361,11 +265,11 @@
                   moduleName = "WeatherToday"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/AMAT/Sajith-Workspace/WeatherToday/WeatherToday/WeatherViewModel.swift"
-                  timestampString = "559790714.2762769"
+                  timestampString = "559847873.762926"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
                   offsetFromSymbolStart = "62">
                </Location>
             </Locations>
@@ -378,11 +282,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherViewController.swift"
-            timestampString = "559792383.967535"
+            timestampString = "559847873.496227"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -394,11 +298,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherViewController.swift"
-            timestampString = "559792383.9676369"
+            timestampString = "559847873.49631"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -422,7 +326,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherCollectionCell.swift"
@@ -435,14 +339,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "WeatherToday.WeatherCollectionCell.configureCell(withForecast: Swift.Optional&lt;WeatherToday.WeatherDetails&gt;) -&gt; ()"
                   moduleName = "WeatherToday"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/AMAT/Sajith-Workspace/WeatherToday/WeatherToday/WeatherCollectionCell.swift"
-                  timestampString = "559790714.283923"
+                  timestampString = "559847873.770829"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "27"
@@ -450,14 +354,14 @@
                   offsetFromSymbolStart = "994">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (WeatherToday.Result&lt;Foundation.Data&gt;) -&gt; () in WeatherToday.WeatherCollectionCell.configureCell(withForecast: Swift.Optional&lt;WeatherToday.WeatherDetails&gt;) -&gt; ()"
                   moduleName = "WeatherToday"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/AMAT/Sajith-Workspace/WeatherToday/WeatherToday/WeatherCollectionCell.swift"
-                  timestampString = "559790714.288636"
+                  timestampString = "559847873.773312"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "29"
@@ -470,16 +374,48 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WeatherToday/WeatherTableCell.swift"
-            timestampString = "559792383.9678"
+            timestampString = "559847873.4964271"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "25"
             endingLineNumber = "25"
             landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherToday/WeatherViewModel.swift"
+            timestampString = "559847873.496552"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "getCityList()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherToday/WeatherViewModel.swift"
+            timestampString = "559847889.025313"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "getCityList()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

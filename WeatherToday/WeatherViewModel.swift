@@ -11,17 +11,19 @@ import UIKit
     protocol WeatherViewModelType {
         var forecasts: [[WeatherDetails]]? { get set }
         var dateHeaderText: [String] { get set }
-        //var coordinator: CoordinatorType? { get }
+        var cities:[City]{  get }
         func getData( city: City, reloadAction: ((Bool) -> ())?,
                       alertAction: ((String) -> ())?)
-        func getCityList() -> [City]?
-       
+        func getCityForName(name: String) -> City?
     }
     
 class WeatherViewModel: WeatherViewModelType, Downloadable, Parsable {
-    
     var forecasts: [[WeatherDetails]]?
     var dateHeaderText: [String] = []
+    private var tempCities: [City]?
+    var cities: [City] {
+        return getCityList()
+    }
     func getData( city: City, reloadAction: ((Bool) -> ())?,
      alertAction: ((String) -> ())?) {
         dateHeaderText = ["Today", "Tomorrow"]
@@ -106,11 +108,27 @@ class WeatherViewModel: WeatherViewModelType, Downloadable, Parsable {
                 dateHeaderText.append(formattedDateString)
             }
         }
-    func getCityList() -> [City]? {
-        let cityList = City.loadJson(filename: "city")
-        return cityList
+    func getCityList() -> [City] {
+        if tempCities != nil && tempCities!.count > 0{
+            return tempCities! 
+        }else{
+            if let cityList = City.loadJson(filename: "city"){
+                tempCities = cityList
+                return cityList
+        }
+        return cities
+        }
     }
-       
+    func getCityForName(name: String) -> City?{
+        var selected :City?
+        for  oneCity in cities{
+            if oneCity.name == name {
+                selected = oneCity
+                break
+            }
+        }
+        return selected
+    }
     }
 
 
